@@ -25,7 +25,7 @@ Bus = collections.namedtuple('Bus',
                              'vNominal',
                              'slack'])
 
-# Named tupple holds a equipment definition
+# Named tupple holds an equipment definition
 Equipment = collections.namedtuple('Equipment',
                             ['id',
                              'name',
@@ -39,7 +39,7 @@ Equipment = collections.namedtuple('Equipment',
                              'voltageFar',
                              'phaseShift'])
         
-# Named tupple holds a equipment definition
+# Named tupple holds a measurement definition
 Measurement = collections.namedtuple('Measurement',
                             ['name',
                              'type',
