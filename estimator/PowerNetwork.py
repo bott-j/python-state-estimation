@@ -127,10 +127,7 @@ class PowerNetwork():
             bShunt : float # Shunt susceptance
             ):
         """ Adds a line joining buses to the network model. """
-        
-        # Test branch protection
-        bSeries += 100
-        
+                
         # Create a new equipment object
         eq = Equipment(len(self._equipment), name, busNear, busFar, gSeries, gShunt, bSeries, bShunt, busNear.vNominal, busFar.vNominal, 0)
         
