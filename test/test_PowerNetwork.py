@@ -44,7 +44,7 @@ def test_StateEstimateLine():
     states = net.stateEstimate()
 
     # Correct type
-    assert(type(states) == dict)
+    assert(type(states) is dict)
     # Correct length
     assert(len(states) == 2)
 
